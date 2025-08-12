@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "testmod",
+	"id": "mapbannermod",
 	"version": "${version}",
 	"name": "Test Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/testmod/icon.png",
+	"icon": "assets/mapbannermod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.machado0.testmod.TestMod"
+			"net.machado0.mapbannermod.MapBannerMod"
 		],
 		"fabric-datagen": [
-			"net.machado0.testmod.TestModDataGenerator"
+			"net.machado0.mapbannermod.MapBannerModDataGenerator"
 		],
 		"client": [
-			"net.machado0.testmod.TestModClient"
+			"net.machado0.mapbannermod.MapBannerModClient"
 		]
 	},
 	"mixins": [
-		"testmod.mixins.json"
+		"mapbannermod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",

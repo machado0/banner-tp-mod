@@ -1,9 +1,9 @@
-package net.machado0.testmod;
+package net.machado0.mapbannermod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class TestModDataGenerator implements DataGeneratorEntrypoint {
+public class MapBannerModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
